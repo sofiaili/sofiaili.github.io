@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeupArtist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #731C5C;
+            color: #ffffff;
+            text-align: center;
+        }
+        header {
+            background-color: #731C5C;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #731C5C;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .main-page {
+            background-color: #FFD0F5;
+            padding: 100px 50px;
+            color: #731C5C;
+        }
+        .main-page h2, .main-page p {
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #731C5C;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #5B1447;
+        }
+        .about-page {
+            background-color: #ffffff;
+            padding: 50px;
+            color: #731C5C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+        .about-page img {
+            width: 250px;
+            height: 350px;
+            margin-right: 20px;
+            float: left;
+        }
+        .services-page {
+            background-color: #FFD0F5;
+            padding: 50px;
+            color: #731C5C;
+        }
+        .services-page h2 {
+            margin-top: 0;
+        }
+        .services-page p {
+            margin-bottom: 20px;
+        }
+        .services-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .services-images img {
+            width: 305px;
+            height: 370px;
+            margin: 10px;
+        }
+        .price-page {
+            background-color: #ffffff;
+            padding: 50px;
+            color: #731C5C;
+        }
+        .price-page h2 {
+            margin-top: 0;
+        }
+        .price-page p {
+            margin-bottom: 20px;
+        }
+        .price-item {
+            margin-bottom: 20px;
+        }
+        .contact-page {
+            background-color: #FFD0F5;
+            padding: 50px;
+            color: #731C5C;
+        }
+        .contact-page h2 {
+            margin-top: 0;
+        }
+        .contact-page .icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MakeupArtist</h1>
+    </header>
+    <nav>
+        <a href="main.html">Main</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="price.html">Price</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="main-page">
+        <h2>Professional Makeup Artist</h2>
+        <p>Feel beautiful</p>
+        <p>I am here to service all your beauty needs. If you're looking for special occasion makeup for an engagement, wedding, birthday, or a date night, book me as your makeup artist.</p>
+        <a href="contact.html" class="button">Book now</a>
+    </div>
+    <!-- сторінка About -->
+    <div class="about-page">
+        <img src="assets/AboutMe.png" alt="Makeup Artist Image">
+        <div class="text">
+            <h2>Who am I</h2>
+            <p>Im Anna, a professional makeup artist who has a passion for helping people feel good and look better.</p>
+                <div>
+                    <p>100 00+</p>
+                    <p>Social media audience</p>
+                </div>
+                <div>
+                    <p>1000+</p>
+                    <p>Satisfied customers</p>
+                </div>
+                <div>
+                    <p>10</p>
+                    <p>Years of experience</p>
+                </div>
+         </div>   
+    </div>
+    <!-- сторінка Services -->
+    <div class="services-page">
+        <h2>Makeup for every occasion</h2>
+        <div class="services-images">
+            <div>
+                <img src="assets/wedding.png" alt="Wedding">
+                <p>Wedding</p>
+            </div>
+            <div>
+                <img src="assets/birthday.png" alt="Birthday">
+                <p>Birthday</p>
+            </div>
+            <div>
+                <img src="assets/Date.png" alt="Date night">
+                <p>Date night</p>
+            </div>
+            <div>
+                <img src="assets/Photoshoot.png" alt="Photoshoot">
+                <p>Photoshoot</p>
+            </div>
+            <div>
+                <img src="assets/Work.png" alt="Work">
+                <p>Work</p>
+            </div>
+            <div>
+                <img src="assets/creative.png" alt="Creative">
+                <p>Creative</p>
+            </div>
+        </div>
+    </div>
+    <!-- сторінка Price -->
+    <div class="price-page">
+        <h2>Price</h2>
+        <div class="price-item">
+            <p>Regular occasion</p>
+            <p>$150</p>
+            <a href="contact.html" class="button">Book now</a>
+        </div>
+        <div class="price-item">
+            <p>Special occasion</p>
+            <p>$300</p>
+            <a href="contact.html" class="button">Book now</a>
+        </div>
+        <div class="price-item">
+            <p>Photoshoot</p>
+            <p>$500</p>
+            <a href="contact.html" class="button">Book now</a>
+        </div>
+    </div>
+    <!-- сторінка Contact -->
+    <div class="contact-page">
+        <h2>Contact me</h2>
+        <div class="icons">
+            <img src="assets/instagram.png">
+        </div>
+    </div>
+</body>
+</html>
